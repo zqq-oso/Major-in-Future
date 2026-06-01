@@ -1,0 +1,24 @@
+{
+  "chat_models": [
+    {
+      "model_name": "chat",
+      "litellm_params": {
+        "model": "openai/your-chat-model",
+        "api_base": "https://your-openai-compatible-endpoint/v1",
+        "api_key": "os.environ/MODEL_API_KEY_1",
+        "max_parallel_requests": 20
+      }
+    }
+  ],
+  "embed_models": [
+    {
+      "model_name": "embed",
+      "litellm_params": {
+        "model": "openai/your-embedding-model",
+        "api_base": "https://your-openai-compatible-endpoint/v1",
+        "api_key": "os.environ/MODEL_API_KEY_1",
+        "max_parallel_requests": 20
+      }
+    }
+  ]
+}

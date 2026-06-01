@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+
+# Runtime outputs and local data
+output/
+logs/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated model and analysis artifacts
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.parquet
+*.jsonl
+*.log
+*.pid
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
